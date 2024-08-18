@@ -1,9 +1,21 @@
 {
-  "version": 2,
   "builds": [
-    { "src": "sunflowerdate.html", "use": "@vercel/static" }
+    {
+      "src": "newfolder/sunflowerdate.html",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "newfolder/nobutton.html",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "newfolder/yesbutton.html",
+      "use": "@vercel/static"
+    }
   ],
   "routes": [
-    { "src": "/(.*)", "dest": "/sunflowerdate.html" }
+    { "src": "/sunflowerdate", "dest": "/newfolder/sunflowerdate.html" },
+    { "src": "/nobutton", "dest": "/newfolder/nobutton.html" },
+    { "src": "/yesbutton", "dest": "/newfolder/yesbutton.html" }
   ]
 }
