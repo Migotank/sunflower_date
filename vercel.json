@@ -1,7 +1,7 @@
 {
   "routes": [
-    { "src": "/", "dest": "/newfolder/sunflowerdate.html" },
-    { "src": "/nobutton", "dest": "/newfolder/nobutton.html" },
-    { "src": "/yesbutton", "dest": "/newfolder/yesbutton.html" }
+    { "src": "/", "dest": "sunflowerdate.html" },
+    { "src": "/nobutton", "dest": "nobutton.html" },
+    { "src": "/yesbutton", "dest": "yesbutton.html" }
   ]
 }
