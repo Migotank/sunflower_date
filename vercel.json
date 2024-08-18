@@ -1,20 +1,6 @@
 {
-  "builds": [
-    {
-      "src": "newfolder/sunflowerdate.html",
-      "use": "@vercel/static"
-    },
-    {
-      "src": "newfolder/nobutton.html",
-      "use": "@vercel/static"
-    },
-    {
-      "src": "newfolder/yesbutton.html",
-      "use": "@vercel/static"
-    }
-  ],
   "routes": [
-    { "src": "/sunflowerdate", "dest": "/newfolder/sunflowerdate.html" },
+    { "src": "/", "dest": "/newfolder/sunflowerdate.html" },
     { "src": "/nobutton", "dest": "/newfolder/nobutton.html" },
     { "src": "/yesbutton", "dest": "/newfolder/yesbutton.html" }
   ]
